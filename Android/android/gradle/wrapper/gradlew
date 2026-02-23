@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+set -e
+gradle_wrapper_dir="$(cd "$(dirname "$0")" && pwd)"
+exec "$gradle_wrapper_dir/gradlew" "$@"
